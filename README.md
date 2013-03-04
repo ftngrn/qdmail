@@ -4,9 +4,9 @@ Qdmail
 Qdmail library series.  
 This series from http://hal456.net/
 
-* Qdmail
-* QdmailReceiver
-* Qdsmtp
+* Qdmail (http://hal456.net/qdmail/)
+* QdmailReceiver (http://hal456.net/qdmail_rec/)
+* Qdsmtp (http://hal456.net/qdsmtp/)
 
 ## License ##
 
