@@ -4,11 +4,24 @@ Qdmail
 Qdmail library series.  
 [![Build Status](https://travis-ci.org/ftngrn/qdmail.png?branch=master)](https://travis-ci.org/ftngrn/qdmail)
 
-This series from http://hal456.net/
+This series forked from http://hal456.net/
 
-* Qdmail (http://hal456.net/qdmail/)
-* QdmailReceiver (http://hal456.net/qdmail_rec/)
-* Qdsmtp (http://hal456.net/qdsmtp/)
+* [Qdmail](http://hal456.net/qdmail/)
+* [QdmailReceiver](http://hal456.net/qdmail_rec/)
+* [Qdsmtp](http://hal456.net/qdsmtp/)
+
+## このライブラリについて ##
+Qdmailライブラリシリーズのgithub版です。  
+開発者のspokさんから以下のように許可を頂いています。  
+```
+ライセンスに従って頂ければ何をしていただいても構いません。
+多くの人に使われることが私の幸せです。
+ただ、本業が忙しく、qdmailを触る時間は、もうとれないだろうと思っております。
+できれば私の手を離れて誰かが管理してくれるとうれしいと思っています。
+```
+
+## Associated repository ##
+* [Component for CakePHP2.x](https://github.com/spark-lab/Qdmail) by spark-lab
 
 ## License ##
 
