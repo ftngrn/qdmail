@@ -3,8 +3,6 @@ language: php
 
 # list any PHP version you want to test against
 php:
-  # aliased to a recent 5.1.x version
-  - 5.1
   # aliased to a recent 5.2.x version
   - 5.2
   # aliased to a recent 5.3.x version
