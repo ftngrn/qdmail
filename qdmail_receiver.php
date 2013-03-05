@@ -1401,4 +1401,3 @@ if(!function_exists('qd_receive_mail')){
 	}
 }
 
-?>

@@ -4126,4 +4126,5 @@ class QdDeco{
 		}
 	return true;
 	}
-}?>
+}
+?>
