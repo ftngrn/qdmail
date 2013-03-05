@@ -3,6 +3,7 @@ Qdmail
 
 Qdmail library series.  
 This series from http://hal456.net/
+[![Build Status](https://travis-ci.org/ftngrn/qdmail.png?branch=master)](https://travis-ci.org/ftngrn/qdmail)
 
 * Qdmail (http://hal456.net/qdmail/)
 * QdmailReceiver (http://hal456.net/qdmail_rec/)

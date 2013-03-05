@@ -1,0 +1,19 @@
+# see http://about.travis-ci.org/docs/user/languages/php/ for more hints
+language: php
+
+# list any PHP version you want to test against
+php:
+  # aliased to a recent 5.1.x version
+  - 5.1
+  # aliased to a recent 5.2.x version
+  - 5.2
+  # aliased to a recent 5.3.x version
+  - 5.3
+  # aliased to a recent 5.4.x version
+  - 5.4
+
+notifications:
+  email: false
+
+script: phpunit --strict --configuration phpunit.xml --coverage-text
+
