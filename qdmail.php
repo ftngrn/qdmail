@@ -3348,7 +3348,7 @@ $this->debugEchoLf($this->to);
 		return false;
 	}
 
-	function log( $mes = null ){
+	function log( $mes = null, $type = 2 ){
 		if( is_null( $mes )){
 			$addrs = $this->done() ;
 //			$this->done = array();
