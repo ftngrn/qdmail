@@ -16,7 +16,7 @@ notifications:
 before_install:
   - mkdir -p $PWD/phpunit/bin
 
-after_install:
+before_script:
   - export PATH=$PWD/phpunit/bin:$PATH
 
 script:
