@@ -4,16 +4,20 @@ language: php
 matrix:
   include:
   - php: 7.0
+    install: wget -O $PWD/phpunit/bin/phpunit https://phar.phpunit.de/phpunit-6.5.14.phar;
   - php: 7.1
+    install: wget -O $PWD/phpunit/bin/phpunit https://phar.phpunit.de/phpunit-7.5.16.phar;
   - php: 7.2
   - php: 7.3
 
 notifications:
   email: false
 
-install:
-  - if [ $TRAVIS_PHP_VERSION = '7.0']; then mkdir -p phpunit/bin; wget -O phpunit/bin/phpunit https://phar.phpunit.de/phpunit-6.5.14.phar; export PATH=`pwd`/phpunit/bin:$PATH; fi
-  - if [ $TRAVIS_PHP_VERSION = '7.1']; then mkdir -p phpunit/bin; wget -O phpunit/bin/phpunit https://phar.phpunit.de/phpunit-7.5.16.phar; export PATH=`pwd`/phpunit/bin:$PATH; fi
+before_install:
+  - mkdir -p $PWD/phpunit/bin
+
+after_install:
+  - export PATH=$PWD/phpunit/bin:$PATH
 
 script:
   - phpunit --strict-coverage --strict-global-state --configuration phpunit.xml --coverage-text
