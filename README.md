@@ -2,8 +2,10 @@ Qdmail
 ======
 
 Qdmail library series.  
-Test has been run on PHP 5.3, 5.4.  
+Test has been run on PHP 7.0, 7.1, 7.2, 7.3.  
 [![Build Status](https://travis-ci.org/ftngrn/qdmail.png?branch=master)](https://travis-ci.org/ftngrn/qdmail)
+
+Please refer tag:php-5 for php5 series.
 
 This series forked from http://hal456.net/
 
