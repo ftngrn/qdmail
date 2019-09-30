@@ -20,5 +20,5 @@ matrix:
 notifications:
   email: false
 
-script: phpunit --strict --configuration phpunit.xml --coverage-text
+script: phpunit --strict-coverage --strict-global-state --configuration phpunit.xml --coverage-text
 
