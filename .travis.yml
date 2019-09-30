@@ -6,11 +6,12 @@ matrix:
   - php: 7.0
     install: wget -O $PWD/phpunit/bin/phpunit https://phar.phpunit.de/phpunit-6.5.14.phar;
     script:
-      - $PWD/phpunit/bin/phpunit --strict-coverage --strict-global-state --configuration phpunit.xml --coverage-text
+    
+      - php $PWD/phpunit/bin/phpunit --strict-coverage --strict-global-state --configuration phpunit.xml --coverage-text
   - php: 7.1
     install: wget -O $PWD/phpunit/bin/phpunit https://phar.phpunit.de/phpunit-7.5.16.phar;
     script:
-      - $PWD/phpunit/bin/phpunit --strict-coverage --strict-global-state --configuration phpunit.xml --coverage-text
+      - php $PWD/phpunit/bin/phpunit --strict-coverage --strict-global-state --configuration phpunit.xml --coverage-text
   - php: 7.2
     script:
       - phpunit --strict-coverage --strict-global-state --configuration phpunit.xml --coverage-text
